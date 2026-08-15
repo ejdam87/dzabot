@@ -22,11 +22,9 @@
 #include <esp_wifi.h>
 #include <WiFi.h>
 #include <WebServer.h>
-
 #include "esp_camera.h"          // controlling camera
 #include <WiFiClientSecure.h>    // http(s)
 #include <HTTPClient.h>          // http(s)
-#include "esp_sleep.h"           // deep sleep
 #include "camera_pin_config.hpp" // camera configuration
 
 
