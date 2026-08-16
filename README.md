@@ -35,7 +35,7 @@ The robot MCU (ESP32-S3) communicates with the controller MCU (ESP32-C3) via ESP
 
 ## Abstract Schematic
 
-![Abstract Schematic](./images/dzabot_schematic.png)
+![Abstract Schematic](./images/dzabot_abstract_schematic.png)
 
 ## Photo(s)
 
