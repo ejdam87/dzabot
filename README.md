@@ -29,7 +29,11 @@ Specific included libraries:
 
 ## Functionality
 
-The robot MCU (ESP32-S3) communicates with the controller MCU (ESP32-C3) via ESP-NOW protocol (based on WiFi physical stack). Moreover, the robot MCU has a server (on it's own access point - you need to connect with your client device to it) listening at `http://192.168.4.1/` which on `GET /` or `GET /photo` requests captures the photo with the camera and serves it to the client.
+The robot MCU (ESP32-S3) communicates with the controller MCU (ESP32-C3) via ESP-NOW protocol (based on WiFi physical stack). Moreover, the robot MCU has a server (on it's own access point - you need to connect with your client device to it) listening at `http://192.168.4.1/` which on `GET /` or `GET /photo` request captures a photo with the camera and serves it to the client.
+
+## Abstract Schematic
+
+![Abstract Schematic](./images/dzabot_schematic.png)
 
 ## Photo(s)
 
