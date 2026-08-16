@@ -4,13 +4,15 @@ This repository contains a firmware for my hand-crafted robot together with the 
 
 ## Components
 
-- ESP32-S3 with OV5640 camera module   -> main computing unit on the robot
-- DRV8833 motor driver                 -> controlling 2 DC motors (rear-wheel drive)
-- 5x electrolytic capacitor 100uF      -> smoothing out the WiFi transmission current requirements
-- 4x 1.5V batteries + battery pack     -> power supply for both the MCU and driver
-- Analog joystick                      -> Input device for the robot control
-- ESP32-C3                             -> computing unit in the wireless controller
-- Jumper Wires + soderless breadboard  -> wiring and physical / electrical connections between the components
+| Component | Purpose |
+|---|---|
+| ESP32-S3 with OV5640 camera module | Main computing unit on the robot |
+| DRV8833 motor driver | Controlling 2 DC motors (rear-wheel drive) |
+| 5x electrolytic capacitor 100µF | Smoothing out the WiFi transmission current requirements |
+| 4x 1.5V batteries + battery pack | Power supply for both the MCU and driver |
+| Analog joystick | Input device for the robot control |
+| ESP32-C3 | Computing unit in the wireless controller |
+| Jumper wires + solderless breadboard | Wiring and physical/electrical connections between the components |
 
 ## Software Libraries
 
